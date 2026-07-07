@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>だんだん | 出雲の食堂・定食屋</title>
+    <meta name="description" content="島根県出雲市の食堂「だんだん」。日本三大そばの出雲そばと日本海の海鮮を使った料理を提供。心からの「ありがとう」を込めた特別な空間。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <h1 class="logo">だんだん</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#concept">コンセプト</a></li>
+                    <li><a href="#menu">お品書き</a></li>
+                    <li><a href="#interior">店内空間</a></li>
+                    <li><a href="#story">こだわり</a></li>
+                    <li><a href="#access">アクセス</a></li>
+                </ul>
+            </nav>
+            <a href="tel:0235-xxx-xxx" class="header-reserve-btn">ご予約・お問い合わせ</a>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ファーストビュー（FV） -->
+        <section class="fv">
+            <div class="fv-bg"></div>
+            <div class="fv-content">
+                <h2 class="fv-title">
+                    <span style="display: block;">自然の恵み</span>
+                    <span style="display: block;">感謝のひととき。</span>
+                </h2>
+                <p class="fv-subtitle">出雲の地で味わう、特別な食体験。</p>
+            </div>
+            <div class="scroll-down"><span>Scroll</span></div>
+        </section>
+
+        <!-- 店舗コンセプト -->
+        <section id="concept" class="concept section">
+            <div class="container fade-in">
+                <h3 class="section-title">コンセプト</h3>
+                <div class="concept-content">
+                    <div class="concept-text">
+                        <p class="concept-lead">食材、人、自然に感謝を込めて。</p>
+                        <p>
+                            中国地方の方言で「ありがとう」を意味する「だんだん」。<br>
+                            私たちは、豊かな自然が育んだ食材、足を運んでくださるお客様、<br>
+                            そしてこの出雲の地に、心からの感謝を込めて料理を振る舞います。<br><br>
+                            日本三大そばの一つ「出雲そば」と、<br>
+                            日本海がもたらす新鮮な海鮮類。<br>
+                            特別な体験と安らぎの空間をご用意してお待ちしております。
+                        </p>
+                    </div>
+                    <div class="concept-image">
+                        <img src="https://images.unsplash.com/photo-1577968897966-3d4325b36b61?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="出雲の自然と和食">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- こだわり・ストーリー -->
+        <section id="story" class="story section">
+            <div class="container fade-in">
+                <h3 class="section-title">こだわり</h3>
+                <div class="story-grid">
+                    <div class="story-item">
+                        <img src="https://images.unsplash.com/photo-1551323386-8a9d16f8ecbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="出雲そば">
+                        <div class="story-text-box">
+                            <h4>香り高き出雲そば</h4>
+                            <p>そばの実を皮ごと挽き込む「挽きぐるみ」による、野趣あふれる香りと黒っぽい色調が特徴。職人が毎朝手打ちする、喉越しの良いこだわりの逸品です。</p>
+                        </div>
+                    </div>
+                    <div class="story-item reverse">
+                        <img src="https://images.unsplash.com/photo-1578474846511-04ba529f0b88?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="日本海の海鮮">
+                        <div class="story-text-box">
+                            <h4>日本海の豊かな海の幸</h4>
+                            <p>荒波にもまれた日本海の魚介類は、身が引き締まり脂が乗っています。毎朝市場から直送される新鮮な海鮮を、丼や定食で贅沢にご提供いたします。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- おすすめメニュー & 料理紹介 -->
+        <section id="menu" class="menu section">
+            <div class="container fade-in">
+                <h3 class="section-title">お品書き</h3>
+                
+                <h4 class="menu-subtitle">おすすめの逸品</h4>
+                <div class="menu-recommend">
+                    <!-- 4つの指定メニュー -->
+                    <div class="menu-card highlight">
+                        <div class="menu-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1583225214476-857e4e16447e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="出雲そばと海鮮丼セット">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name">出雲そばと海鮮丼セット <span class="badge">おすすめ</span></h5>
+                            <p class="menu-price">2,000円</p>
+                            <p class="menu-desc">当店の一番人気。香り高い出雲そばと、新鮮な海の幸を贅沢に盛った海鮮丼の至福のセットです。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-recommend-grid">
+                        <div class="menu-card">
+                            <div class="menu-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="出雲そば">
+                            </div>
+                            <div class="menu-info">
+                                <h5 class="menu-name">出雲そば</h5>
+                                <p class="menu-price">900円</p>
+                                <p class="menu-desc">挽きぐるみの香り高い出雲そば。ツユを直接かけてお召し上がりください。</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1512776856094-1188339598c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="出雲かき揚げそば">
+                            </div>
+                            <div class="menu-info">
+                                <h5 class="menu-name">出雲かき揚げそば</h5>
+                                <p class="menu-price">950円</p>
+                                <p class="menu-desc">サクサクに揚げた地元野菜のかき揚げを添えて。</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="海鮮丼">
+                            </div>
+                            <div class="menu-info">
+                                <h5 class="menu-name">海鮮丼</h5>
+                                <p class="menu-price">1,200円</p>
+                                <p class="menu-desc">日本海の新鮮な海の幸をふんだんに使用した贅沢な一杯。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="menu-subtitle mt-5">自慢の品々</h4>
+                <div class="menu-grid" id="menu-grid">
+                    <!-- 残り16品はJSで生成 -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 店内紹介（アニメーションスライダー） -->
+        <section id="interior" class="interior section">
+            <h3 class="section-title text-center">店内空間</h3>
+            <div class="interior-slider">
+                <!-- 5枚の画像が5秒ごとに切り替わる -->
+                <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');"></div>
+                <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1551323386-8a9d16f8ecbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');"></div>
+                <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1524414140026-6202cc608249?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');"></div>
+                <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1578474846511-04ba529f0b88?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');"></div>
+                <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1583225214476-857e4e16447e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');"></div>
+                
+                <div class="interior-overlay-text">
+                    <p>入口、厨房、カウンター。<br>そして滝を望む特等席。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- お客様の声 -->
+        <section id="voices" class="voices section bg-light">
+            <div class="container fade-in">
+                <h3 class="section-title">お客様の声</h3>
+                <div class="voice-grid">
+                    <div class="voice-card">
+                        <div class="voice-img">
+                            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="出雲そば">
+                        </div>
+                        <div class="voice-content">
+                            <p class="voice-menu">出雲そば</p>
+                            <p class="voice-text">「コシが強くて香りがとても良かったです。お店の雰囲気も落ち着いていて、デートにぴったりでした。」</p>
+                            <p class="voice-user">30代 女性</p>
+                        </div>
+                    </div>
+                    <div class="voice-card">
+                        <div class="voice-img">
+                            <img src="https://images.unsplash.com/photo-1583225214476-857e4e16447e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="海鮮丼セット">
+                        </div>
+                        <div class="voice-content">
+                            <p class="voice-menu">出雲そばと海鮮丼セット</p>
+                            <p class="voice-text">「海鮮が新鮮で驚きました！そばとの相性も抜群で、ボリューム満点で大満足です。」</p>
+                            <p class="voice-user">40代 男性</p>
+                        </div>
+                    </div>
+                    <div class="voice-card">
+                        <div class="voice-img">
+                            <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="天ぷら盛り合わせ">
+                        </div>
+                        <div class="voice-content">
+                            <p class="voice-menu">季節の天ぷら盛り合わせ</p>
+                            <p class="voice-text">「サクサクの天ぷらと滝が見える席で、日常を忘れる特別な時間を過ごせました。」</p>
+                            <p class="voice-user">20代 女性</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- よくある質問 -->
+        <section id="faq" class="faq section">
+            <div class="container fade-in">
+                <h3 class="section-title">よくある質問</h3>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-q">駐車場はありますか？<span class="icon">＋</span></button>
+                        <div class="faq-a"><p>はい、店舗の隣に10台分の無料駐車場をご用意しております。</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-q">予約は可能ですか？<span class="icon">＋</span></button>
+                        <div class="faq-a"><p>お電話にてご予約を承っております。週末は混み合うため、早めのご連絡をおすすめいたします。</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-q">個室はありますか？<span class="icon">＋</span></button>
+                        <div class="faq-a"><p>完全個室はございませんが、ゆったりと過ごせるテーブル席や、景色を楽しめる窓際のお席をご用意しております。</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- アクセス＆予約導線 -->
+        <section id="access" class="access section">
+            <div class="container fade-in">
+                <div class="access-inner">
+                    <div class="access-info">
+                        <h3 class="section-title text-left">アクセス・店舗情報</h3>
+                        <table class="info-table">
+                            <tr>
+                                <th>店舗名</th>
+                                <td>だんだん</td>
+                            </tr>
+                            <tr>
+                                <th>住所</th>
+                                <td>〒693-0000 島根県出雲市〇〇町1-2-3</td>
+                            </tr>
+                            <tr>
+                                <th>営業時間</th>
+                                <td>11：00～15：00<br>（ラストオーダー 14：30）</td>
+                            </tr>
+                            <tr>
+                                <th>定休日</th>
+                                <td>水曜日</td>
+                            </tr>
+                        </table>
+                        
+                        <div class="reserve-box">
+                            <p class="reserve-lead">ご予約・お問い合わせはお電話にて承ります。</p>
+                            <a href="tel:0235-xxx-xxx" class="tel-number">0235-xxx-xxx</a>
+                        </div>
+                    </div>
+                    <div class="access-map">
+                        <iframe src="https://maps.google.com/maps?q=%E5%B3%B6%E6%A0%B9%E7%9C%8C%E5%87%BA%E9%9B%B2%E5%B8%82&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <h2 class="footer-logo">だんだん</h2>
+            <div class="sns-links">
+                <a href="#" class="sns-btn">Instagram</a>
+                <a href="#" class="sns-btn">Facebook</a>
+            </div>
+            <p class="copyright">&copy; 2026 だんだん All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
