@@ -243,10 +243,16 @@ ul {
 .fv-title {
     writing-mode: vertical-rl; /* 縦書きで和風・高級感を演出 */
     text-orientation: mixed;
+    font-size: 3rem;
     font-weight: 500;
     letter-spacing: 0.3em;
     line-height: 2;
-    height: 40vh; /* 縦の長さを確保 */
+}
+.title-line-1, .title-line-2 {
+    display: block;
+}
+.title-line-2 {
+    margin-top: 2.5em; /* 段組み（ずらし）効果 */
 }
 .fv-subtitle {
     font-size: 1.2rem;
@@ -709,11 +715,13 @@ ul {
     }
     
     .fv-title {
-        font-size: 2rem;
+        font-size: 2.5rem;
+    }
+    .title-line-2 {
+        margin-top: 3em;
     }
     .fv-subtitle {
         font-size: 1rem;
-        margin-right: 20px;
     }
     
     .concept-content {
